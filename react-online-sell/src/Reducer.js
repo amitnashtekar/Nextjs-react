@@ -1,5 +1,6 @@
 export const initialState = {
   basket: [],
+  user: null,
 };
 export const getBasketTotalPrice = (basket) => {
   return basket?.reduce((amount, item) => {
@@ -30,6 +31,11 @@ const reducer = (state, { type, payload }) => {
         console.warn(`there is no item in basket having id ${payload.id}`);
         return state;
       }
+    case "SET_USER":
+      return {
+        ...state,
+        user: payload.user,
+      };
     default:
       return state;
   }
