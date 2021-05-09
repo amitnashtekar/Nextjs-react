@@ -13,20 +13,51 @@ function Home() {
         />
         <div className="home__row">
           <Product
+            id={1234}
             title="Lorem ipsum dolor sit amet consectetur adipisicing elit"
             price={19.2}
             imageurl="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_2x._SY608_CB432774344_.jpg"
             rating={3}
           />
-          <Product />
+          <Product
+            id={458}
+            title="Lorem ipsum dolor sit amet consectetur adipisicing elit"
+            price={19.2}
+            imageurl="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_2x._SY608_CB432774344_.jpg"
+            rating={3}
+          />
         </div>
         <div className="home__row">
-          <Product />
-          <Product />
-          <Product />
+          <Product
+            id={6874}
+            title="Lorem ipsum dolor sit amet consectetur adipisicing elit"
+            price={19.2}
+            imageurl="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_2x._SY608_CB432774344_.jpg"
+            rating={3}
+          />
+          <Product
+            id={2949}
+            title="Lorem ipsum dolor sit amet consectetur adipisicing elit"
+            price={19.2}
+            imageurl="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_2x._SY608_CB432774344_.jpg"
+            rating={3}
+          />
+          <Product
+            id={9940}
+            title="Lorem ipsum dolor sit amet consectetur adipisicing elit"
+            price={19.2}
+            imageurl="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_2x._SY608_CB432774344_.jpg"
+            rating={3}
+          />
         </div>
         <div className="home__row">
-          <Product />
+          <Product
+            id={301467}
+            title="Lorem ipsum dolor sit amet consectetur adipisicing elit"
+            price={19.2}
+            imageurl="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_2x._SY608_CB432774344_.jpg"
+            rating={3}
+          />
         </div>
       </div>
     </div>
